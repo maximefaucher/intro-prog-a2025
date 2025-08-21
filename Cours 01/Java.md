@@ -45,7 +45,7 @@ Ce fichier est stocké quelque part dans la mémoire d'un ordinateur, par exempl
 Le compilateur Java (commande `javac`) transforme le fichier `.java` en *bytecode* :
 
 ```powershell
-PS C:\Utilisateurs\maxime> javac Bonjour.java
+PS C:\Utilisateurs\maxime> javac --release 8 Bonjour.java
 ```
 
 Résultat : un fichier `Bonjour.class` contenant du *bytecode*, lisible par la *JVM*.
