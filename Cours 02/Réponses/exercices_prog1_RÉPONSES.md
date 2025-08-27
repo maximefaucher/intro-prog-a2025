@@ -1,6 +1,5 @@
 # ✅ Réponses – Exercices Java Chats
 
-
 ## ➕ Opérateurs mathématiques
 
 1. `total = 4 + 5 + 6;` → 15
@@ -16,14 +15,13 @@
 
 ## 🔁 Opérateurs d’assignation
 
-11. `croquettes -= 40;` → 60
-12. `bonheur = 50 + 20 - 15;` → 55
-13. `jouets = 5 * 2 / 5;` → 2
-14. `croquettes = 50 / 2; reste = croquettes % 3;` → reste = 1
-15. `nom = "Minou le Magnifique et Rapide";`
-16. `sauts *= 2;`
-17. `energie -= 25;` → 75
-18. `griffes -= 2;` → 8
-19. `vies += 2;` → 5
-20. `jouets -= 3;` → 5
-
+1. `croquettes -= 40;` → 60
+2. `bonheur = 50 + 20 - 15;` → 55
+3. `jouets = 5 * 2 / 5;` → 2
+4. `croquettes = 50 / 2; reste = croquettes % 3;` → reste = 1
+5. `nom = "Minou le Magnifique et Rapide";`
+6. `sauts *= 2;`
+7. `energie -= 25;` → 75
+8. `griffes -= 2;` → 8
+9. `vies += 2;` → 5
+10. `jouets -= 3;` → 5
