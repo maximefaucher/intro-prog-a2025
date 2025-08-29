@@ -15,7 +15,7 @@
 
 ## 🔁 Opérateurs d’assignation
 
-1. `croquettes -= 40;` → 60
+1. `croquettes += 10;` → 40
 2. `bonheur = 50 + 20 - 15;` → 55
 3. `jouets = 5 * 2 / 5;` → 2
 4. `croquettes = 50 / 2; reste = croquettes % 3;` → reste = 1
