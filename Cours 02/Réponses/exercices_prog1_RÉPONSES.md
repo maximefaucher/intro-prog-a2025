@@ -20,7 +20,7 @@
 3. `jouets = 5 * 2 / 5;` → 2
 4. `croquettes = 50 / 2; reste = croquettes % 3;` → reste = 1
 5. `nom = "Minou le Magnifique et Rapide";`
-6. `sauts *= 2;`
+6. `sauts *= 2;` → 6
 7. `energie -= 25;` → 75
 8. `griffes -= 2;` → 8
 9. `vies += 2;` → 5
