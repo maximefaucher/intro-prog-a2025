@@ -7,38 +7,42 @@ Ces exercices couvrent : **sorties console**, **entrées console**, et **opérat
 ## Partie 1 : Sorties Console
 
 ### Exercice 1
-Écris un programme qui affiche ton prénom et ton nom sur deux lignes.  
+
+Écris un programme qui affiche ton prénom et ton nom sur deux lignes sans utiliser `println()`.  
 Résultat:  
 ![picture 1](../../images/ea0dd10d3213fd52d86eb3c42563b3ea1f0a9634e244c5dd0b440783268754a4.png)  
-
 
 ```java
 public class Ex1 {
     public static void main(String[] args) {
-        System.out.println("Jean");
-        System.out.println("Dupont");
+        String prenom = "Jean", nom = "Dupont";
+        System.out.print(prenom + "\n" + nom + "\n");
     }
 }
 ```
 
 ### Exercice 2
-Affiche la phrase : `Bonjour, je m'appelle Alice et j'ai 20 ans.`  
+
+Affiche la phrase : `Bonjour, je m'appelle Alice et j'ai 20 ans.` à l'aide de `printf()`.
 Résultat:  
 ![picture 2](../../images/158fd0e4883bb55c09e8a4da2d53dbe884a060aaf58e03454e5877906d5fbde4.png)  
 
 ```java
 public class Ex2 {
     public static void main(String[] args) {
-        System.out.println("Bonjour, je m'appelle Alice et j'ai 20 ans.");
+        String nom = "Alice";
+        int age = 20;
+        System.out.printf("Bonjour, je m'appelle %s et j'ai %d ans.%n", nom, age);
     }
 }
 ```
 
 ### Exercice 3
+
 Affiche un carré formé d’étoiles `*` (4x4).  
 Résultat:
 ![picture 3](../../images/d10419611b2f688c3d30e92d49919a858bdca33a4ebb95a69e866d7a759bb234.png)  
- 
+
 ```java
 public class Ex3 {
     public static void main(String[] args) {
@@ -52,6 +56,7 @@ public class Ex3 {
 ```
 
 ### Exercice 4
+
 Affiche les nombres de 1 à 5, chacun sur une ligne.  
 Résultat:  
 ![picture 4](../../images/33e57dad949fc7b7ec31b0283953545244c23003ee1acee68cd6e7351f429945.png)  
@@ -69,6 +74,7 @@ public class Ex4 {
 ```
 
 ### Exercice 5
+
 Affiche le message `Bienvenue dans le cours de Java !` avec le mot dans un affichage centré dans un tableau d'étoiles de 10 lignes.  
 Résultat:  
 ![picture 5](../../images/6931fe204f73de476bcb220cff3ee7b8d616ec55a26f63bd376fad99683fb358.png)  
@@ -95,10 +101,12 @@ public class Ex5 {
 ## Partie 2 : Entrées Console
 
 ### Exercice 6
+
 Demande à l’utilisateur son prénom et affiche : `Bonjour <prénom> !`.  
 ![picture 6](../../images/4cd5acfc817ebff12590726074544c602dcec63cc53f35f316bb16b2d39f52f1.png)  
 
-Résultat:  
+Résultat:
+
 ```java
 import java.util.Scanner;
 
@@ -113,6 +121,7 @@ public class Ex6 {
 ```
 
 ### Exercice 7
+
 Demande à l’utilisateur deux nombres et affiche leur somme.  
 
 Résultat:  
@@ -134,6 +143,7 @@ public class Ex7 {
 ```
 
 ### Exercice 8
+
 Demande l’âge de l’utilisateur et affiche `Tu as X ans.`.  
 
 Résultat:  
@@ -153,7 +163,9 @@ public class Ex8 {
 ```
 
 ## Opérateurs relationnels (de comparaison) et opérateurs logiques
+
 ### Exercice 9
+
 Demande deux nombres et affiche `true` ou `false` si (a > b) et (b > a).  
 
 Résultat:  
@@ -175,12 +187,12 @@ public class Ex9 {
 }
 ```
 
-
 ---
 
 ## Partie 3 : Opérateurs Relationnels et Logiques
 
 ### Exercice 10
+
 Demande un nombre et affiche `true` ou `false` si le nombre est positif.  
 
 Résultat:  
@@ -201,6 +213,7 @@ public class Ex10 {
 ```
 
 ### Exercice 11
+
 Demande un nombre et affiche `true` ou `false` si un nombre est pair ou impair.  
 
 Résultat:  
@@ -220,8 +233,8 @@ public class Ex11 {
 }
 ```
 
-
 ### Exercice 12
+
 Demande l’âge et affiche `true` ou `false` si la personne est majeure (>=18).  
 
 Résultat:  
@@ -242,6 +255,7 @@ public class Ex12 {
 ```
 
 ### Exercice 13
+
 Demande un nombre et affiche `true` ou `false` s'il est compris entre 10 et 20.  
 
 Résultat:  
@@ -260,8 +274,8 @@ public class Ex13 {
 }
 ```
 
-# Niveau expert
-### Exercice 14
+### Exercice 14 [Niveau expert]
+
 Demande un caractère et vérifie s’il s’agit d’une voyelle (a, e, i, o, u).  
 
 Résultat:  
@@ -286,6 +300,7 @@ public class Ex14 {
 ```
 
 ### Exercice 15
+
 Demande un nombre et vérifie s’il est multiple de 3 ou de 5.  
 
 Résultat:  
@@ -304,8 +319,8 @@ public class Ex15 {
 }
 ```
 
-
 ### Exercice 16
+
 Vérifie si une année entrée est bissextile.  
 
 Résultat:  
