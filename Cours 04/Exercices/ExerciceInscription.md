@@ -1,4 +1,4 @@
-# 💡 Exercice Java : Système de gestion d'inscription à une compétition sportive
+# Exercice Java : Système de gestion d'inscription à une compétition sportive
 
 On veut écrire un programme Java qui permet de gérer l'inscription d'un
 participant à une compétition.
@@ -49,9 +49,9 @@ participant à une compétition.
 ``` txt
 Résumé d'inscription :
 Nom        : <nom>
-Âge        : <âge> ans
-Poids      : <poids> kg
-Catégorie  : <catégorie> (<sous-catégorie complète>)
+Âge        : <âge> ans (<sous-catégorie d'âge>)
+Poids      : <poids> kg (<sous-catégorie de poids>)
+Catégorie  : <catégorie>
 ```
 
 ------------------------------------------------------------------------
@@ -70,10 +70,3 @@ Catégorie  : <catégorie> (<sous-catégorie complète>)
     -   entrées invalides → message d'erreur + re-demander la valeur.
 
 ------------------------------------------------------------------------
-
-## ✅ Objectif attendu
-
-Au bout d'environ **2 heures**, l'étudiant doit avoir :\
-- Un programme **robuste** face aux mauvaises entrées.\
-- De nombreux `if` bien structurés.\
-- Une sortie formatée et professionnelle avec `printf`.
