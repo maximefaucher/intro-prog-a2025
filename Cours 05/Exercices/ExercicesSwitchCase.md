@@ -38,4 +38,4 @@ Demande à l'utilisateur une note entre 0 et 20, puis affiche une appréciation 
 
 ## Exercice 5 : Mois et nombre de jours (Niveau avancé)
 
-Refaire l'exercice 4 mais en gérant les années bissextiles et en affichant la saison (automne, été, printemps, hiver) associée au mois reçu.
+Refaire l'exercice 4 mais en demandant aussi une année en plus de gérer les années bissextiles et en affichant la saison (automne, été, printemps, hiver) associée au mois reçu.
