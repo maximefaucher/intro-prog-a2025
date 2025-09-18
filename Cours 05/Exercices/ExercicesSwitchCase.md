@@ -19,6 +19,12 @@ Utilise un `switch` pour faire cette correspondance.
 
 Demande à l'utilisateur deux nombres et une opération parmi `+`, `-`, `*`, `/` et affiche le résultat correspondant en utilisant un `switch`.
 
+**Attention!**
+
+- Votre programme ne devrait pas demander la saisie du 2e nombre et de l'opérateur si le premier nombre est invalide (pas un nombre).
+- Similairement, si le 2e nombre est invalide, pas de saisie de l'opérateur
+- Finalement si l'opérateur est invalide, on ne peut pas afficher le résultat de l'opération.
+
 ---
 
 ## Exercice 3 : Système de notation (Niveau moyen)
