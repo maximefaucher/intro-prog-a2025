@@ -1,5 +1,7 @@
 # Exercices sur les switch-case en Java
 
+**Intégrer des validations de données dans vos programmes.** Mettre des messages d'erreurs appropriés.
+
 ## Exercice 1 : Jour de la semaine (Facile)
 
 Écris un programme qui prend un entier entre 1 et 7 et affiche le jour correspondant de la semaine :
