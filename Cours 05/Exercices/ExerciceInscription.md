@@ -53,12 +53,13 @@ Catégorie  : <catégorie>
 ## 🔹 Points de difficulté (qui prennent du temps)
 
 - Bien gérer la **validation des entrées** (nom vide, mauvaise valeur numérique, mot en minuscules/majuscules).
+- Gérer le tampon d'entrée correctement (en cas de saisie invalide, le vider en prévision de la saisie suivante).
 - Utiliser des `if` imbriqués pour déterminer les sous-catégories.
 - Employer `printf` pour un affichage clair et aligné.
 - Penser aux **cas limites** :
   - âge = 12 ou 65 (frontières valides)
   - poids entre 30.00 et 200.00 inclusivement
   - catégorie écrite en majuscules (`"NATATION"`) → doit être acceptée.
-  - entrées invalides → message d'erreur + re-demander la valeur.
+  - entrées invalides → message d'erreur approprié.
 
 ------------------------------------------------------------------------
