@@ -21,9 +21,8 @@
     - [Opérateurs Ternaires](./Cours%2004/4.2-OpérateursTernaires.md)
     - [Manipulations Chaînes](./Cours%2004/4.3-ManipulationsChaînes.md)
 5. Cours 5
-    - Validations
-        - [Validations Chaînes Caractères](./Cours%2005/5.1.1-ValidationsChaînesCaractères.md)
-        - [Validations Scanner Java](./Cours%2005/5.1.2-ValidationsScannerJava.md)
+    - [Validations Chaînes Caractères](./Cours%2005/5.1.1-ValidationsChaînesCaractères.md)
+    - [Validations Scanner Java](./Cours%2005/5.1.2-ValidationsScannerJava.md)
     - [Instruction Switch](./Cours%2005/5.2-InstructionSwitch.md)
 6. Cours 6
     - [Boucle While](./Cours%2006/6.1-BoucleWhile.md)
