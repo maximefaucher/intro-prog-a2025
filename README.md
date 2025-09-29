@@ -1,7 +1,6 @@
 # intro-prog-a2025
 
 ## Table de matières
-```
 1. Cours 1
     - [Intro Git](./Cours%2001/IntroGit.md)
     - [Java](./Cours%2001/Java.md)
@@ -32,7 +31,6 @@
     - [Classe Math](./Cours%2006/6.3-ClasseMath.md)
     - [Dates Heures](./Cours%2006/6.4-DatesHeures.md)
     - [Les Couleurs](./Cours%2006/6.5-LesCouleurs.md)
-```
 
 ## Info
 Pour les étudiants du cours Introduction à la programmation 420-116-RI du cégep de Trois-Rivières à la session d'automne 2025.
