@@ -109,7 +109,7 @@ System.out.println(count);
 
 ### 3.3 Écrire le code
 
-Affiche les 10 premiers termes de la suite de Fibonacci. Les 2 premiers termes sont gaux à 1, et les suivants sont définis comme `Terme N = Terme N-1 + Terme N-2`.
+Affiche les 10 premiers termes de la suite de Fibonacci. Les 2 premiers termes sont égaux à 1, et les suivants sont définis comme `Terme N = Terme N-1 + Terme N-2`.
 
 Ainsi, `Terme 3 = Terme 2 + Terme 1 = 1 + 1 = 2` et `Terme 4 = Terme 3 + Terme 2 = 2 + 1 = 3`, et ainsi de suite.
 
