@@ -30,9 +30,9 @@
   * [Instruction Switch](./Cours%2005/5.2-InstructionSwitch.md)
 
 * Cours 06
-  * [Boucle While](./Cours%2006/6.1-BoucleWhile.md)
-  * [Boucle Do While](./Cours%2006/6.2-BoucleDoWhile.md)
-  * [Classe Math](./Cours%2006/6.3-ClasseMath.md)
+  * [Boucle `while`](./Cours%2006/6.1-BoucleWhile.md)
+  * [Boucle `do...while`](./Cours%2006/6.2-BoucleDoWhile.md)
+  * [Classe `Math`](./Cours%2006/6.3-ClasseMath.md)
   * [Dates Heures](./Cours%2006/6.4-DatesHeures.md)
   * [Les Couleurs](./Cours%2006/6.5-LesCouleurs.md)
 
