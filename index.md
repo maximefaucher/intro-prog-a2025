@@ -19,15 +19,15 @@
   * [Opérateurs Relationnels Logiques](./Cours%2003/3.OpérateursRelationnelsLogiques.md)
 
 * Cours 04
-  * [Introduction SI](./Cours%2004/4.1-IntroductionSI.md)
+  * [Introduction `if`](./Cours%2004/4.1-IntroductionSI.md)
   * [Opérateurs Ternaires](./Cours%2004/4.2-OpérateursTernaires.md)
   * [Manipulations Chaînes](./Cours%2004/4.3-ManipulationsChaînes.md)
 
 * Cours 05
   * Validations
     * [Validations Chaînes Caractères](./Cours%2005/5.1.1-ValidationsChaînesCaractères.md)
-    * [Validations Scanner Java](./Cours%2005/5.1.2-ValidationsScannerJava.md)
-  * [Instruction Switch](./Cours%2005/5.2-InstructionSwitch.md)
+    * [Validations `Scanner` Java](./Cours%2005/5.1.2-ValidationsScannerJava.md)
+  * [Instruction `switch`](./Cours%2005/5.2-InstructionSwitch.md)
 
 * Cours 06
   * [Boucle `while`](./Cours%2006/6.1-BoucleWhile.md)
