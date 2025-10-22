@@ -42,3 +42,4 @@
 
 * Cours 08
   * [Tableaux](./Cours%2008/8.1-Tableaux.md)
+  * [Classe `Arrays`](./Cours%2008/8.2-ClasseArrays.md)
