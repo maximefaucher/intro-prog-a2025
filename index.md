@@ -52,4 +52,5 @@
   * [Fonctions externes](./Cours%2009/9.1-FonctionsExternes.md)
   * [Procédures, méthodes et fonctions](./Cours%2009/9.2-ProcéduresMéthodesEtFonctions.md)
   * [Surcharge de méthode](./Cours%2009/9.3-SurchargeDeMethode.md)
+  * [Ducumentation en Java](./Cours%2009/9.4-DocumentationJava.md)
   
