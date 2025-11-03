@@ -43,3 +43,14 @@
 * Cours 08
   * [Tableaux](./Cours%2008/8.1-Tableaux.md)
   * [Classe `Arrays`](./Cours%2008/8.2-ClasseArrays.md)
+
+* Cours 08
+  * [Tableaux](./Cours%2008/8.1-Tableaux.md)
+  * [Classe `Arrays`](./Cours%2008/8.2-ClasseArrays.md)
+
+* Cours 09
+  * [Fonctions externes](./Cours%2009/9.1-FonctionsExternes.md)
+  * [Procédures, méthodes et fonctions](./Cours%2009/9.2-ProcéduresMéthodesEtFonctions.md)
+  * [Surcharge de méthode](./Cours%2009/9.3-SurchargeDeMethode.md)
+  * [Ducumentation en Java](./Cours%2009/9.4-DocumentationJava.md)
+  
