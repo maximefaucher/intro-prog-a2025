@@ -1,187 +1,126 @@
+# Exercices sur les Tableaux 2D en Java
 
-# Tableaux à Deux Dimensions en Java
+## 1. Exercices simples (5)
 
-Un **tableau à deux dimensions** est un tableau dont chaque élément est lui-même un tableau.  
-On peut le voir comme une **grille** ou une **matrice**, avec des lignes et des colonnes.  
+### Exercice 1 — Somme des éléments
+Écrire un programme qui calcule la somme de tous les éléments dans un tableau 2D d’entiers initialisé aléatoirement.
 
----
+### Exercice 2 — Trouver le minimum
+Trouver la plus petite valeur dans un tableau 2D remplit aléatoirement.
 
-## Déclaration et Initialisation
+### Exercice 3 — Compter les zéros
+Compter combien de cases contiennent la valeur `0` dans un tableau 2D.
 
-```java
-// Déclaration d'un tableau 2D d'entiers
-int[][] tableauEntiers;
+### Exercice 4 — Afficher une matrice
+Créer un tableau 2D 3×3 et afficher son contenu sous forme de grille.
 
-// Initialisation avec taille fixe
-tableauEntiers = new int[3][4]; // 3 lignes, 4 colonnes
+### Exercice 5 — Remplacer une valeur
+Demander une valeur à l’utilisateur et remplacer toutes ses occurrences par `-1` dans un tableau préalablement remplis aléatoirement de valeurs entre 14 et 19.
 
-// Déclaration et initialisation en même temps
-int[][] tableauExemple = {
-    {1, 2, 3},
-    {4, 5, 6},
-    {7, 8, 9}
-};
-```
 
-- `tableau[i][j]` correspond à l'élément à la ligne `i` et la colonne `j`.
-- Les indices commencent à **0**.
+## 2. Exercices de difficulté moyenne (5)
 
----
+### Exercice 6 — Somme par ligne
+Afficher la somme de chaque ligne d’un tableau 2D.
 
-## Exemple avec Valeurs Numériques
+### Exercice 7 — Matrice identité
+Créer une matrice identité de taille donnée par l’utilisateur. Une matrice identité, aussi appelée matrice unité, est une matrice carrée dont les éléments sur la diagonale principale sont des \(1\) et tous les autres éléments sont des \(0\). Elle sert d'élément neutre pour la multiplication matricielle, ce qui signifie que lorsqu'elle est multipliée par une autre matrice, elle donne toujours cette même matrice (par exemple, \(A*I=A\)).  
 
-```java
-int[][] notes = {
-    {80, 90, 75},
-    {60, 70, 85},
-    {100, 95, 90}
-};
+### Exercice 8 — Trouver une valeur
+Demander une valeur à l’utilisateur et indiquer si elle existe dans le tableau et combien d'occurence y a t'il de cette valeur.
 
-System.out.println("Note de l'élève 2 à l'examen 3 : " + notes[1][2]); // 85
-```
+### Exercice 9 — Compter les éléments pairs
+Faire la somme de tous les éléments pairs dans un tableau 2D.
+
+### Exercice 10 — Rotation 90°
+Créer un programme qui génère un nouveau tableau correspondant à une rotation de 90° d'une matrice.
+
 
 ---
 
-## Exemple avec Caractères
+# 3. Jeu de Bingo (Tableau 2D)
 
+## Initialisation d’une grille de Bingo (5×5)
+
+### Fonction Java d’initialisation aléatoire
 ```java
-char[][] lettres = {
-    {'A', 'B', 'C'},
-    {'D', 'E', 'F'},
-    {'G', 'H', 'I'}
-};
+public static int[][] initialiserBingo() {
+    int[][] bingo = new int[5][5];
+    java.util.Random rand = new java.util.Random();
 
-System.out.println("Lettre en ligne 3, colonne 2 : " + lettres[2][1]); // H
-```
-
----
-
-## Exemple avec Strings
-
-```java
-String[][] prenoms = {
-    {"Alice", "Bob"},
-    {"Charlie", "David"},
-    {"Eva", "Frank"}
-};
-
-System.out.println("Nom à la ligne 1, colonne 2 : " + prenoms[0][1]); // Bob
-```
-
----
-
-## Transposition d'un Tableau à Deux Dimensions
-
-La **transposition** d'un tableau consiste à échanger ses lignes et ses colonnes.
-
-```java
-int[][] original = {
-    {1, 2, 3},
-    {4, 5, 6}
-};
-
-int lignes = original.length;       // 2
-int colonnes = original[0].length; // 3
-int[][] transpose = new int[colonnes][lignes];
-
-for(int i = 0; i < lignes; i++) {
-    for(int j = 0; j < colonnes; j++) {
-        transpose[j][i] = original[i][j];
-    }
-}
-
-// Affichage
-for(int i = 0; i < colonnes; i++) {
-    for(int j = 0; j < lignes; j++) {
-        System.out.print(transpose[i][j] + " ");
-    }
-    System.out.println();
-}
-```
-
-**Résultat :**
-```
-1 4
-2 5
-3 6
-```
-
----
-
-## Exemple : Classe et Places Assises
-
-On peut représenter une **classe** avec un tableau 2D, où chaque case indique si une place est occupée ou non (`true` = assis, `false` = libre).
-
-```java
-boolean[][] classe = {
-    {true, false, true},
-    {false, false, true},
-    {true, true, true}
-};
-
-// Vérification si la place à la ligne 2, colonne 3 est occupée
-if(classe[1][2]) {
-    System.out.println("La place est occupée.");
-} else {
-    System.out.println("La place est libre.");
-}
-
-// Affichage complet de la classe
-for(int i = 0; i < classe.length; i++) {
-    for(int j = 0; j < classe[i].length; j++) {
-        if(classe[i][j]) {
-            System.out.print("X "); // X = occupé
-        } else {
-            System.out.print("O "); // O = libre
+    for (int i = 0; i < 5; i++) {
+        for (int j = 0; j < 5; j++) {
+            bingo[i][j] = rand.nextInt(75) + 1; // Valeurs entre 1 et 75
         }
     }
-    System.out.println();
+    return bingo;
 }
 ```
 
-**Exemple de sortie :**
-```
-X O X
-O O X
-X X X
-```
+### Exercice Bingo
+1. Créer et afficher la grille générée.
+2. Demander un nombre à l’utilisateur.
+3. Remplacer ce nombre par `0` s’il est dans le tableau.
+4. Afficher la nouvelle grille.
+5. Faire une fonction DetectionCoins permettant de détecter si les 4 coins de la matrice sont atteints.
+6. Faire une fonction DetectionLigne permettant de détecter si une ligne (verticale ou horizontale) est pleine dans la carte de bingo.
+
 
 ---
 
-## Points Clés
+# 4. Jeu Battleship (Bataille Navale)
 
-- Un tableau 2D se lit avec deux indices : `[ligne][colonne]`.
-- Les tableaux peuvent contenir n'importe quel type : `int`, `char`, `String`, `boolean`...
-- La **transposition** échange lignes et colonnes.
-- Les tableaux peuvent représenter des grilles, des matrices ou des situations réelles comme une classe.
+### Fonction d’initialisation
+```java
+public static char[][] initialiserBatailleNavale() {
+    char[][] grille = new char[10][10];
+    java.util.Random rand = new java.util.Random();
 
----
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            grille[i][j] = '~'; // eau
+        }
+    }
 
-## Résumé Visuel des Indices
-
-Si on prend un tableau 2x3 :
-
-```
-tableau = {
-    {1, 2, 3},
-    {4, 5, 6}
+    // Placer 5 bateaux simples, 1 case chacun
+    for (int b = 0; b < 5; b++) {
+        int x = rand.nextInt(10);
+        int y = rand.nextInt(10);
+        grille[x][y] = 'B';
+    }
+    return grille;
 }
 ```
 
-- Ligne 0 : 1, 2, 3
-- Ligne 1 : 4, 5, 6
+### Exercice Battleship
+Créer un mini-jeu :
+1. Initialiser la grille.
+2. L’utilisateur entre une position (ligne, colonne).
+3. Afficher “Touché!” ou “Manqué!”.
+4. Marquer le tir dans la grille à l'aide d'un X. Si tous vos bateaux sont composés de X, vous avez perdu la partie.
 
-Indices : `tableau[ligne][colonne]`  
 
-|       | Col 0 | Col 1 | Col 2 |
-|-------|-------|-------|-------|
-| L0    | 1     | 2     | 3     |
-| L1    | 4     | 5     | 6     |
+---
 
-Après transposition (3x2) :
+# 5. Jeu de Puissance 4 (Connect Four)
 
-|       | Col 0 | Col 1 |
-|-------|-------|-------|
-| L0    | 1     | 4     |
-| L1    | 2     | 5     |
-| L2    | 3     | 6     |
+Le jeu se joue dans un tableau 2D de 6 lignes × 7 colonnes.
+
+### Exercice Puissance 4 (Défi)
+1. Créer la grille vide (`'.'` pour une case vide).
+2. Demander à l'utilisateur la chute d’un jeton dans une colonne de son choix.
+3. Vérifier si un joueur a aligné 4 jetons verticalement.
+4. Afficher la grille après chaque coup.
+
+### Exemple d’initialisation
+```java
+public static char[][] initialiserPuissance4() {
+    char[][] grille = new char[6][7];
+    for (int i = 0; i < 6; i++) {
+        for (int j = 0; j < 7; j++) {
+            grille[i][j] = '.';
+        }
+    }
+    return grille;
+}
+```
