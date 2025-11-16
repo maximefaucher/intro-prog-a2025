@@ -1,6 +1,6 @@
 # Exercices sur les Tableaux 2D en Java
 
-## 1. Exercices simples (5)
+## 1. Exercices simples
 
 ### Exercice 1 — Somme des éléments
 Écrire un programme qui calcule la somme de tous les éléments dans un tableau 2D d’entiers initialisé aléatoirement.
@@ -18,7 +18,7 @@ Créer un tableau 2D 3×3 et afficher son contenu sous forme de grille.
 Demander une valeur à l’utilisateur et remplacer toutes ses occurrences par `-1` dans un tableau préalablement remplis aléatoirement de valeurs entre 14 et 19.
 
 
-## 2. Exercices de difficulté moyenne (5)
+## 2. Exercices de difficulté moyenne
 
 ### Exercice 6 — Somme par ligne
 Afficher la somme de chaque ligne d’un tableau 2D.
