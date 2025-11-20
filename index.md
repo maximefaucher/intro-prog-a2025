@@ -38,7 +38,7 @@
 
 * Cours 07
   * [Boucle `for`](./Cours%2007/7.1-BoucleFor.md)
-  * [Boucles `for` imbriquées](./Cours%2007/7.2-BouclesForImbriquées.md)
+  * [Boucles `for` Imbriquées](./Cours%2007/7.2-BouclesForImbriquées.md)
 
 * Cours 08
   * [Tableaux](./Cours%2008/8.1-Tableaux.md)
