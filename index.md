@@ -44,5 +44,22 @@
   * [Tableaux](./Cours%2008/8.1-Tableaux.md)
   * [Classe `Arrays`](./Cours%2008/8.2-ClasseArrays.md)
 
+* Cours 08
+  * [Tableaux](./Cours%2008/8.1-Tableaux.md)
+  * [Classe `Arrays`](./Cours%2008/8.2-ClasseArrays.md)
+
 * Cours 09
-  * [Procédures Méthodes Et Fonctions](./Cours%2009/9.2-ProcéduresMéthodesEtFonctions.md)
+  * [Fonctions externes](./Cours%2009/9.1-FonctionsExternes.md)
+  * [Procédures, méthodes et fonctions](./Cours%2009/9.2-ProcéduresMéthodesEtFonctions.md)
+  * [Surcharge de méthode](./Cours%2009/9.3-SurchargeDeMethode.md)
+  * [Ducumentation en Java](./Cours%2009/9.4-DocumentationJava.md)
+  
+* Cours 10
+  * [Lecture & Écriture de fichiers](./Cours%2010/10.1-LectureEcritureFichiers.md)
+  * [Gestion des exceptions : structure `try-catch`](./Cours%2010/10.2-TryCatch.md)
+
+* Cours 11
+  * [Tableaux 2D](./Cours%2011/11.1-Tableaux_2D_Java.md)
+
+* Cours 12
+  * [Examen 2 Formatif](./Cours%2012/Examen%202%20Formatif/Examen2_A2024_FORMATIF.pdf)
